@@ -1,0 +1,116 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{color}
+\usepackage{url}
+
+\setlength{\oddsidemargin}{0mm}
+\setlength{\evensidemargin}{-14mm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\topmargin}{2mm}
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0cm}
+\setlength{\textheight}{240mm}
+\setlength{\textwidth}{168mm}
+\setlength{\topskip}{0mm}
+\setlength{\footskip}{10mm}
+\setlength{\parindent}{8ex}
+
+\renewcommand\thesection{\Alph{section}}
+
+\newcommand{\comment}[1]{\emph{\color{blue}#1}}
+
+
+\title{ENMT482 Assignment 1}
+\author{Robbie T. Robot and Marvin P. Android, Group 42}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Extended Kalman filter}
+
+
+\subsection{Sensor models}
+
+\comment{Explain your sensor models and show your calibration plots.}
+
+
+\subsection{Motion model}
+
+\comment{Explain your motion model.}
+
+
+\subsection{Results}
+
+\comment{Include plots of how close your estimate was to the true
+  position, for the dataset with ground truth.  Compare the estimated
+  results using the EKF with the results using the sensors on their
+  own and the results using dead-reckoning.}
+
+
+\subsection{Discussion}
+
+\comment{Discuss what worked well and what improvements could be done.
+  Discuss the Kalman gains.}
+
+
+\section{Particle filter}
+
+\subsection{Sensor model}
+
+\comment{Explain your sensor model.}
+
+
+\subsection{Motion model}
+
+\comment{Explain your motion model.}
+
+
+\subsection{Implementation}
+
+\comment{Explain approach taken and number of particles used, etc.}
+
+
+\subsection{Results}
+
+\comment{Include plots of your estimated trajectory alongside the
+  position from SLAM.}
+
+
+\subsection{Discussion}
+
+\comment{Discuss what you thought worked well about your estimation
+  approach and what you could do to improve it.}
+
+
+\section{SLAM}
+
+\comment{Show the map you obtained from the Lab using the `gmapping`
+  program and provide your observations regarding `gmapping`'s
+  performance.}
+
+\color{blue}
+\section*{Instructions}
+
+\begin{enumerate}
+\item The reports can be created in Word or \LaTeX.  Use the
+  appropriate template but delete all the instructions in blue.
+
+\item The page limit is ten pages.  We will deduct 10\% for every page
+  over the page limit.  Do not squeeze the margin or use small fonts
+  (12pt please).
+
+\item Ensure your names and group number are in the title block.
+
+\item No abstract, introduction, or conclusion is required.
+
+\item Submit your reports as a PDF document through Learn.  We will
+  deduct 10\% for non PDF documents.
+
+\item Have a read of my guidelines for writing a report,
+  \url{https://eng-git.canterbury.ac.nz/mph/report-guidelines/blob/master/report-guidelines.pdf}
+
+\end{enumerate}
+
+
+\end{document}
